@@ -42,3 +42,21 @@ body, input, select, textarea {
 		text-transform: uppercase;
 		white-space: nowrap;
 	}
+
+
+  /* Features */
+
+  	.features {
+  		display: -moz-flex;
+  		display: -webkit-flex;
+  		display: -ms-flex;
+  		display: flex;
+  		-moz-flex-wrap: wrap;
+  		-webkit-flex-wrap: wrap;
+  		-ms-flex-wrap: wrap;
+  		flex-wrap: wrap;
+  		border-radius: 0.25em;
+  		border: solid 1px rgba(92, 81, 81, 0.76);
+  		background: rgba(92, 81, 81, 0.76);
+  		margin: 0 0 2em 0;
+  	}
