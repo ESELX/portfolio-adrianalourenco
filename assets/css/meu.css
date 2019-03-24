@@ -1,3 +1,18 @@
 #banner:after {
-  	background-color: #5a9198;
+  	background-color: #242943;
+    }
+
+    header.major > :first-child:after {
+      content: '';
+      background-color: #ffffff;
+      display: block;
+      height: 4px;
+      margin: 0.325em 0 0.5em 0;
+      width: 100%;
+    }
+
+
+    a:hover {
+      border-bottom-color: transparent;
+      color: #86DFE5 !important;
     }
