@@ -16,3 +16,8 @@
       border-bottom-color: transparent;
       color: #86DFE5 !important;
     }
+
+
+    #banner.style2:after {
+      background-color: #e493b8;
+    }
