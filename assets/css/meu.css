@@ -43,7 +43,7 @@
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
-			background-color: #2e3450;
+			background-color: ##bdbfca;
 		}
 
 			.spotlights > section > .image {
@@ -105,7 +105,7 @@
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
-				background-color: #333856;
+				background-color: ##bdbfca;
 			}
 
 				.spotlights > section:nth-child(2n) > .content {
