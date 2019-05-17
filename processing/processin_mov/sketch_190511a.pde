@@ -1,12 +1,12 @@
 float diam;
+float posZ;
 float posX;
-float posY;
 int quant;
 
 
 void setup(){
 
-size(800,600);
+size(1000,600);
 background(20,40,200);
 noStroke();
 
@@ -22,7 +22,7 @@ quant = int(map(mouseX,0,width,0,100));
 
 diam = random(20,60);
 
-  if (diam > 40){
+  if (diam > 20){
     fill(255,0,0,50);
     stroke(255,200,200);
   } 
@@ -33,9 +33,9 @@ diam = random(20,60);
   }
 
   for (int i = 0; i<quant; i++){  
-    posY = map(i,0,quant,0,height);
-    posX=posY;
-    ellipse(posX, posY, diam, diam);
+    posX = map(i,0,quant,0,height);
+    posZ=posX;
+    ellipse(posZ, posX, diam, diam);
 
   }
 }
