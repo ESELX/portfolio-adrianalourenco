@@ -33,3 +33,16 @@
           background-color: #8aa7d1;
           border-bottom: solid 1px rgba(212, 212, 255, 0.1);
         }
+
+
+        		.spotlights > section {
+        			display: -moz-flex;
+        			display: -webkit-flex;
+        			display: -ms-flex;
+        			display: flex;
+        			-moz-flex-direction: row;
+        			-webkit-flex-direction: row;
+        			-ms-flex-direction: row;
+        			flex-direction: row;
+        			background-color: ##ffffff;
+        		}
