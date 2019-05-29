@@ -2,11 +2,11 @@
 void setup (){
   size(800,600);
   noStroke();
-  background (255);
+  background (173, 168, 164);
 }
 
 void draw(){
-  fill (255,40,60);
+  fill (34, 201, 244);
   
   if (mousePressed){
     ellipse(mouseX,mouseY,4,4);}

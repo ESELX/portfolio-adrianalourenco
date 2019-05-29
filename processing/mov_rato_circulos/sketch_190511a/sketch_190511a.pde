@@ -12,7 +12,7 @@ noStroke();
 
 void draw(){
 
-diam = random(20,60);
+diam = random(80,60);
 if (diam > 40){
   fill(31, 97, 141);
   stroke(255,200,200);

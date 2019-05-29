@@ -6,7 +6,7 @@ int quant;
 
 void setup(){
 
-size(1000,600);
+size(500,600);
 background(20,40,200);
 noStroke();
 
@@ -16,19 +16,19 @@ noStroke();
 void draw(){
 
 
-background(20,40,200);  
+background(244, 199, 34);  
 
-quant = int(map(mouseX,0,width,0,100));
+quant = int(map(mouseX,0,width,0,200));
 
-diam = random(20,60);
+diam = random(20,30);
 
-  if (diam > 20){
+  if (diam > 100){
     fill(255,0,0,50);
     stroke(255,200,200);
   } 
 
   else {
-    fill(255,0,0,90);
+    fill(34, 160, 244);
     noStroke();
   }
 
